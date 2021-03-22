@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                git 'git@github.com:Mahesh8143/MyFirstProject.git'
-                bat 'mvn -B compile'
+                echo "Hello Mahesh"
             }
         }
         stage('Test') { 
